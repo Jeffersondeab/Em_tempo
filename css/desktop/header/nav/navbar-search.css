@@ -1,0 +1,16 @@
+.navbar-search{
+    align-items: center;
+    border: 1px solid grey;
+    display: flex;
+    margin-left: 2rem;    
+}
+
+.navbar-search__img{
+    margin-left: .4rem;
+}
+
+.navbar-search__local{
+    border: none;
+    padding: .5rem;
+    width: 14rem;
+}

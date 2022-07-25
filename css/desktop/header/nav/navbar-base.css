@@ -1,0 +1,6 @@
+.navbar-base{
+    display: flex;
+    align-items: center;
+    margin-top:2rem;
+    margin-left: 6rem;
+}

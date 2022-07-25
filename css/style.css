@@ -1,0 +1,20 @@
+            /* CONFIGURAÇÕES GERAIS */
+@import url('conf-gerais.css');
+
+
+
+                /*
+==============================================
+                 HEADER 
+==============================================       
+                 */
+/* NAV */
+
+/* DESKTOP: */ @import url('desktop/header/nav/navbar-icones-cotation.css');
+/* MOBILE:  */ @import url('mobile/nav/navbar-icons-cotation.css');
+
+/* DESKTOP: */ @import url('desktop/header/nav/navbar-base.css');
+
+@import url('desktop/header/nav/nav-logo.css');
+@import url('desktop/header/nav/navbar-search.css');
+@import url('desktop/header/nav/navbar-base__list.css');
