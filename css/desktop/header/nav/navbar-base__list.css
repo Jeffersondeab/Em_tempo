@@ -1,3 +1,42 @@
 .navbar-base__list{
     display: flex;
 }
+
+.navbar-menu__btn{
+    align-items: center;
+    border: none;
+    background: none;
+    color: #00B598;
+    cursor: pointer;
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+
+
+.hamburguer{
+    border-top: .13rem solid;
+    width: 1.5rem;
+}
+
+.hamburguer::after, .hamburguer::before{
+    background: currentColor;
+    content: '';
+    display: block;
+    height: .13rem;  
+    margin-top: .3rem;
+    position: relative;
+    transition: .3s; 
+    width: 1.5rem;
+}
+
+
+.navbar-base_item{
+    margin-left: 3rem;
+}
+
+.navbar-base__link{
+    color: black;
+}
+

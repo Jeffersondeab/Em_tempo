@@ -1,16 +1,24 @@
 .navbar-search{
     align-items: center;
     border: 1px solid grey;
+    border-radius: 20rem;
     display: flex;
-    margin-left: 2rem;    
+    margin-left: 2rem; 
 }
 
-.navbar-search__img{
-    margin-left: .4rem;
+.navbar-search__btn{
+    cursor: pointer;
+    color: #00B598;
+    border: none;  
+    background-color: transparent;
+    padding: .5rem;
 }
 
 .navbar-search__local{
     border: none;
+    border-radius: 20rem;
+    height: 2rem;  
+    outline: none;
     padding: .5rem;
     width: 14rem;
 }
