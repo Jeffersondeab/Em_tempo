@@ -6,6 +6,5 @@
 
 <div> 
     <a>
-    http://192.168.0.15:5500/Em_tempo.html
     </a>
 </div>
