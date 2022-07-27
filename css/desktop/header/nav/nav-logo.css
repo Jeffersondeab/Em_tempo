@@ -1,7 +1,27 @@
 .navbar-logo__img{
     background: #00B598;
- 
     padding: .2rem;
     width: 8rem;
+}
+
+.navbar-logoMobile__link{
+    display: none;
+}
+ 
+
+@media screen and (max-width:1024px) {
+    .navbar-logo__img{
+        display: none;
+    }
+
+    .navbar-logoMobile__link{
+        display: block;
+        position: absolute;
+        left: 0;
+        padding: 1rem;
+    }
+    .navbar-logoMobile__img{
+        width: 2.5rem;
+    }
 }
 

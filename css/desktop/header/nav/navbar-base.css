@@ -4,3 +4,10 @@
     margin-top:2rem;
     margin-left: 6rem;
 }
+
+@media screen and (max-width:1024px) {
+    .navbar-base{
+        flex-direction: column-reverse;
+        margin-left: 0;
+    }
+}

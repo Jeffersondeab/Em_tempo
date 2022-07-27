@@ -17,7 +17,8 @@
 
 .hamburguer{
     border-top: .13rem solid;
-    width: 1.5rem;
+    margin-right: .5rem;
+    width: 1.5rem; 
 }
 
 .hamburguer::after, .hamburguer::before{
@@ -38,5 +39,26 @@
 
 .navbar-base__link{
     color: black;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .navbar-base__list{
+        display: flex;
+        width: 100vw;
+    }
+
+    .navbar-menu__btn, .hamburguer{
+        margin-left: 0;
+    }
+
+    .navbar-base_item{
+        margin-left:0 rem;
+        margin-bottom: 1rem;
+    }
+
+    .navbar-base__link{
+ 
+    }
 }
 

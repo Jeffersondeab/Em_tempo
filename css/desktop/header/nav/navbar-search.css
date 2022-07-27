@@ -22,3 +22,11 @@
     padding: .5rem;
     width: 14rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .navbar-search, .navbar-search__local{
+        display: flex;
+        width: 70vw;
+        margin: 0 auto;
+    }
+}
