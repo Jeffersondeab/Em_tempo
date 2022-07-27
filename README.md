@@ -5,5 +5,5 @@
  <p>⚠ Desenvolvido para fins de estudo ⚠</p> 
 
 <div> 
-    <a href="http://192.168.0.15:5500/Em_tempo.html">teste</a>
+    <a href="Em_tempo.html">teste</a>
 </div>
