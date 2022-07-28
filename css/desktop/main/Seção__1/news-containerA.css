@@ -1,10 +1,12 @@
 .news-containerA{
     display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "news-containerA__link news-containerA__link news-containerA__link"
+                         "news-containerA__link  news-containerA__link";
     width: 85vw;
     margin: auto;
 }
+
+ 
 
 .news-containerA__link:nth-child(1){ 
     background-image: url(/css/desktop/main/imagens/dragas-atracam-rio-amazonia-1.jpg);
@@ -14,16 +16,12 @@
     display: block;
     height: 54vh;
     width: 41vw;
-    opacity: 1;
     margin-right: 6rem;
 }
 
 
-.headlineSub-content{
-    display: flex;
-    flex-direction: column;
-    position: absolute;
- 
- 
+.news-containerA .headlineSub-content{
+    margin-top: 20%;
+    margin-left: 1rem;
 }
 
