@@ -1,18 +1,23 @@
+.navbar{
+    
+}
 
 .navbar-icons-cotation{ 
+    align-items: center;
     background-color: #00B598; 
     display: flex;
     height: 2.25rem;
     justify-content: space-between;
-    align-items: center;
+    margin: auto;
+
 }
 
 .navbar-icons__list{
-    margin-left: 10rem;
+    margin-left: 5rem;
 }
 
 .navbar-cotation__list{
-    margin-right: 2.25rem;
+    margin-right: 5rem;
 }
 
 .navbar-icons__list, .navbar-cotation__list{

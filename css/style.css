@@ -8,8 +8,8 @@
                  HEADER 
 ==============================================       
                  */
-/* NAV */
-
+/* Nav */
+@import url('desktop/header/nav/navbar.css');
 @import url('desktop/header/nav/navbar-icones-cotation.css');
 @import url('desktop/header/nav/navbar-base.css');
 @import url('desktop/header/nav/nav-logo.css');
@@ -17,3 +17,12 @@
 @import url('desktop/header/nav/navbar-base__list.css');
 
 /* MOBILE:  */ @import url('mobile/nav/navbar-icons-cotation.css');
+
+/* 
+============================================
+                MAIN
+============================================
+*/
+
+/* seção 1 */
+@import url('desktop/main/Seção__1/news-containerA.css');

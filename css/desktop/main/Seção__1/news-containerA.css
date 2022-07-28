@@ -1,0 +1,29 @@
+.news-containerA{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    width: 85vw;
+    margin: auto;
+}
+
+.news-containerA__link:nth-child(1){ 
+    background-image: url(/css/desktop/main/imagens/dragas-atracam-rio-amazonia-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    border-radius: 2rem;
+    display: block;
+    height: 54vh;
+    width: 41vw;
+    opacity: 1;
+    margin-right: 6rem;
+}
+
+
+.headlineSub-content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+ 
+ 
+}
+
