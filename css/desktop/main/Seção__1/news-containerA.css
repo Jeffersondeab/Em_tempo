@@ -1,27 +1,81 @@
 .news-containerA{
     display: grid;
-    grid-template-areas: "news-containerA__link news-containerA__link news-containerA__link"
-                         "news-containerA__link  news-containerA__link";
+    grid-template-areas: "grid-1-1 grid-1-2 grid-1-3"
+                         "grid-1-1    0     grid-1-3"
+                         "grid-1-1 grid-1-4 grid-1-4";
+    margin: 0 auto;
     width: 85vw;
-    margin: auto;
+}                   
+
+ 
+.grid-1-1{
+    grid-area: grid-1-1;
+}
+.grid-1-2{
+    grid-area: grid-1-2;
+}
+
+.grid-1-4{
+    grid-area: grid-1-4;
 }
 
  
 
+
+.news-containerA__link:not(:last-child,:first-child){
+    display: flex;
+    align-items: center;
+    width: 17vw;
+    height: 10rem;
+}
+ 
+
+ 
 .news-containerA__link:nth-child(1){ 
-    background-image: url(/css/desktop/main/imagens/dragas-atracam-rio-amazonia-1.jpg);
+    background-image: url(/css/imagens/imagensMain/dragas-atracam-rio-amazonia-1.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     border-radius: 2rem;
     display: block;
     height: 54vh;
-    width: 41vw;
-    margin-right: 6rem;
+    width: 46vw;
+    margin-right: 3rem;
+}
+
+.news-containerA__link:nth-child(2){
+    background-image: url(/css/imagens/imagensMain/20170830modelos-de-casas-pequenas-4-1.jpg);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+}
+.news-containerA__link:nth-child(3){
+    background-image: url(/css/imagens/imagensMain/20170830modelos-de-casas-pequenas-4-1.jpg);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    border-radius: 2rem;
+}
+
+ 
+.news-containerA__link:nth-child(4){
+    display: flex;
+    align-items: center;
+    color: #292929;
+    gap: .6rem;
+    border-radius: 2rem;
+}
+
+.news-containerA__link:nth-child(4) img{
+    border-radius: 2rem;
+    width: 17vw;
+    height: 10rem;
+}
+.news-containerA__link:nth-child(4) p{
+    color: #626262;
 }
 
 
-.news-containerA .headlineSub-content{
-    margin-top: 20%;
-    margin-left: 1rem;
-}
 
+
+
+
+ 
