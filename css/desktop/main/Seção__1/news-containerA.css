@@ -19,16 +19,31 @@
     grid-area: grid-1-4;
 }
 
- 
+
+.read-time{
+    color: rgba(255, 255, 255, 0.836);
+    font-size: .75rem;
+    opacity: 1;
+    margin-left: 1.5rem;
+
+}
+
+.read-time::before{
+    content: '';
+}
 
 
-.news-containerA__link:not(:last-child,:first-child){
+.news-containerA__link:not(:last-child){
     display: flex;
     align-items: center;
     width: 17vw;
     height: 10rem;
 }
- 
+  
+.news-containerA__link:not(:last-child) h3, li{
+    margin-left: 1.5rem;
+    color: white;
+}
 
  
 .news-containerA__link:nth-child(1){ 
@@ -36,11 +51,12 @@
     background-repeat: no-repeat;
     background-position: center top;
     border-radius: 2rem;
-    display: block;
     height: 54vh;
     width: 46vw;
     margin-right: 3rem;
+    line-height: 2rem;
 }
+ 
 
 .news-containerA__link:nth-child(2){
     background-image: url(/css/imagens/imagensMain/20170830modelos-de-casas-pequenas-4-1.jpg);
