@@ -1,6 +1,4 @@
-.navbar{
-    
-}
+
 
 .navbar-icons-cotation{ 
     align-items: center;
@@ -11,12 +9,16 @@
     margin: 0 auto;
 }
 
-.navbar-icons__list{
-    margin-left: 5rem;
+.navbar-teste{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 85vw;
 }
 
-.navbar-cotation__list{
-    margin-right: 5rem;
+.navbar-icons__list{
+    margin: 0 auto;
+    width: 85vw;
 }
 
 .navbar-icons__list, .navbar-cotation__list{
@@ -24,10 +26,14 @@
     flex-direction: row;
 }
 
+.navbar-icons__item{
+    margin: 0rem;
+}
+
+
 
 .navbar-icons__link, .navbar-cotation__link{
     color: white;
-    padding: .9rem;
 }
 
 .navbar-icons__link:hover, .navbar-cotation__link:hover{
