@@ -8,8 +8,7 @@
     display: flex;
     height: 2.25rem;
     justify-content: space-between;
-    margin: auto;
-
+    margin: 0 auto;
 }
 
 .navbar-icons__list{
@@ -35,5 +34,20 @@
     color: rgb(206, 206, 206);
 }
 
+
+@media screen  and (max-width:500px){
+
+    .navbar-icons-cotation{
+        flex-direction: column-reverse;
+    }
+
+    .navbar-icons__list, .navbar-cotation__list{
+        margin: auto;
+    }
+
+    .navbar-icons__link, .navbar-cotation__link{
+        padding: .1rem;
+    }
+} 
 
 

@@ -15,13 +15,12 @@
     }
 
     .navbar-logoMobile__link{
-        display: block;
+        display: flex;
         position: absolute;
         left: 0;
-        padding: 1rem;
+        padding: .5rem;
     }
     .navbar-logoMobile__img{
-        width: 2.5rem;
+        width: 1.5rem;
     }
 }
-
