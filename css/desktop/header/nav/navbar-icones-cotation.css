@@ -9,7 +9,7 @@
     margin: 0 auto;
 }
 
-.navbar-teste{
+.navbar-icb2{
     display: flex;
     align-items: center;
     margin: auto;
@@ -26,8 +26,13 @@
     flex-direction: row;
 }
 
+.navbar-cotation__link{
+    display: flex;
+    flex-direction: row;
+}
+
 .navbar-icons__item{
-    margin: 0rem;
+    margin: .5rem;
 }
 
 
