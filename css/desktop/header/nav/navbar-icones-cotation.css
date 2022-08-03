@@ -5,7 +5,6 @@
     background-color: #00B598; 
     display: flex;
     height: 2.25rem;
-    justify-content: space-between;
     margin: 0 auto;
 }
 
@@ -13,29 +12,23 @@
     display: flex;
     align-items: center;
     margin: auto;
-    width: 85vw;
+    width: 73vw; 
 }
 
 .navbar-icons__list{
     margin: 0 auto;
-    width: 85vw;
+    width: 73vw;
+    margin-left: -1.5rem;
 }
 
-.navbar-icons__list, .navbar-cotation__list{
+.navbar-icons__list, .navbar-cotation__list, .navbar-cotation__link{
     display: flex;
     flex-direction: row;
 }
 
-.navbar-cotation__link{
-    display: flex;
-    flex-direction: row;
+.navbar-cotation__item{
+    margin-right: 1.5rem;
 }
-
-.navbar-icons__item{
-    margin: .5rem;
-}
-
-
 
 .navbar-icons__link, .navbar-cotation__link{
     color: white;
@@ -44,6 +37,8 @@
 .navbar-icons__link:hover, .navbar-cotation__link:hover{
     color: rgb(206, 206, 206);
 }
+
+
 
 
 @media screen  and (max-width:500px){

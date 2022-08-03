@@ -5,7 +5,7 @@
                          "grid-1-1    0     grid-1-3"
                          "grid-1-1 grid-1-4 grid-1-4";
     margin: 0 auto;
-    width: 85vw;
+    width: 73vw;
 }                   
 
  
@@ -42,6 +42,7 @@
     align-items: center;
     display: flex;
     height: 10rem;
+    width: 14.6vw;
 }
 
   
@@ -81,25 +82,18 @@
     align-items: center;
     color: #292929;
     border-radius: 2rem;
+    margin-top: -1rem;
 }
 
 .news-containerA__link:nth-child(4) img{
     border-radius: 2rem;
     height: 10rem;
-    margin-top: -1rem;
     margin-right: 1rem;
-    width: 22vw;
+    width: 14.6vw;
 }
 .news-containerA__link:nth-child(4) p{
     color: #626262;
 }
-
-
-.news-containerA__link:nth-child(5){
-    width: 0rem;
-}
-
- 
 
 
 

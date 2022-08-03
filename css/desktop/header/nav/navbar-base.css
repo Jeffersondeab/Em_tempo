@@ -1,8 +1,9 @@
 .navbar-base{
     display: flex;
     align-items: center;
-    margin-top:1rem;
-    margin-left: 6rem;
+    margin: 0 auto;
+    width: 73vw;
+    padding-top: 1rem;
 }
 
 @media screen and (max-width:1024px) {

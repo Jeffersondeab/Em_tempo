@@ -1,25 +1,24 @@
 .news-containerA__box{
     display: flex;
-    width: 85vw;
+    gap: 2rem;
+    width: 73vw;
     margin: auto;
     margin-top: 2rem;
 }
 
 .news-containerA__linkbox{
+    align-items: center; 
     display: flex;
-    align-items: center;
     gap: 2rem;
     line-height: 1.5rem;
+    width: 35.8vw;
 }
 
-.news-containerA__linkbox{
-    width: 30rem;
-}
 
 .news-containerA__linkbox img{
-    width: 22vw;
-    height: 10rem;
     border-radius: 2rem;
+    height: 9.3rem;
+    width: 16.1vw;
 }
 
 .news-containerA__linkbox .headlineSub-content{
@@ -40,11 +39,20 @@
 .weather{
     border-radius: 2rem;
     border: 1px solid #070606;
-    height: 10rem;
-    width: 41rem;
+    height: 9.3rem;
+    width: 35rem;
+    /* border: 1px solid #DDDDDD; */
 }
 
-/* border: 1px solid #DDDDDD; */
+.weather h3{
+    margin-left: 1.75rem;
+    margin-top: 1.25rem;
+
+}
+
+
+
+
 
 
 
