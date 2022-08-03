@@ -1,5 +1,6 @@
             /* CONFIGURAÇÕES GERAIS */
 @import url('conf-gerais.css');
+@import url('desktop/componetes-gerais/read-time.css');
 
 
 
@@ -16,7 +17,6 @@
 @import url('desktop/header/nav/navbar-search.css');
 @import url('desktop/header/nav/navbar-base__list.css');
 
-/* MOBILE:  */ @import url('mobile/nav/navbar-icons-cotation.css');
 
 /* 
 ============================================

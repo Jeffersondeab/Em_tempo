@@ -21,22 +21,6 @@
 }
 
 
-.read-time{
-    color: #FFFFFF;
-    font-size: .75rem;
-    opacity: 1;
-    margin-left: 1.5rem;
-}
-
-.read-time::before{
-    content: '';
-}
-
-.read-timeVerde{
-    color: #00B598;
-    margin:0;
-}
-
 
 .news-containerA__link:not(:last-child){
     align-items: center;
@@ -49,6 +33,7 @@
 .news-containerA__link:not(:last-child) h3, li{
     margin-left: 1.5rem;
     color: white;
+    font-size: ;
 }
 
  
