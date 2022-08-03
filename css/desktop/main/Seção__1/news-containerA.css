@@ -33,7 +33,6 @@
 .news-containerA__link:not(:last-child) h3, li{
     margin-left: 1.5rem;
     color: white;
-    font-size: ;
 }
 
  
@@ -87,7 +86,7 @@
     .news-containerA{
         display: flex;
         flex-direction: column;         
-        width: 85vw;
+        width: 73vw;
         margin: 0 auto;
     }
 

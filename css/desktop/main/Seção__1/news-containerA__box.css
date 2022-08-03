@@ -67,7 +67,6 @@
 }
 
 .weather-list{
-
     display: flex;
 }
 
@@ -77,6 +76,33 @@
     flex-direction: column;
     align-items: center;
     line-height: 2.5rem;
+}
+
+@media screen and (max-width:1024px) {
+
+    .news-containerA__box{
+        display: flex;
+        margin-top: 1rem;
+        gap: .5rem;
+    }
+
+    .news-containerA__linkbox{
+        gap: 1rem;
+        margin:0 auto;
+        width: 70vw;
+    }
+
+    .news-containerA__box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .news-containerA__linkbox img{
+        border-radius: 2rem;
+        width: 40vw;
+        height: 20rem;
+    }
+    
 }
 
 
