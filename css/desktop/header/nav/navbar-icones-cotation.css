@@ -43,16 +43,13 @@
 
 @media screen  and (max-width:500px){
 
-    .navbar-icons-cotation{
+    .navbar-icb2{
+        margin:0 auto;
         flex-direction: column-reverse;
     }
 
-    .navbar-icons__list, .navbar-cotation__list{
-        margin: auto;
-    }
-
-    .navbar-icons__link, .navbar-cotation__link{
-        padding: .1rem;
+    .navbar-icons__list,.navbar-icons__item, .navbar-cotation__list{
+        margin: 0 auto;
     }
 } 
 

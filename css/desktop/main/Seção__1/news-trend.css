@@ -1,0 +1,36 @@
+.news-trend{
+    width: 73vw;
+    margin:0 auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid black;
+}
+
+.news-trend__title{
+    color: #DEDEDE;
+}
+
+.news-trend__list{
+    display: flex;
+    margin:0 auto;
+    gap: 1.2rem;
+}
+
+.news-trend__item{
+    margin-left: -.1rem;
+    border: 1px solid black;
+    line-height: 1.4rem;
+}
+
+.news-alert__covid19{
+    color: #00B598;
+}
+
+.news-trend__item h3{
+    color: #292929;
+}
+.news-trend__item p {
+    color: #626262;
+}
+
+
