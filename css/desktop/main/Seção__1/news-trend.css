@@ -3,12 +3,8 @@
     margin:0 auto;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
-    border: 1px solid black;
 }
 
-.news-trend__title{
-    color: #DEDEDE;
-}
 
 .news-trend__list{
     display: flex;
@@ -16,10 +12,14 @@
     gap: 1.2rem;
 }
 
+.news-trend__title{
+    color: #DEDEDE;
+    margin-bottom: 1.1rem;
+}
+
 .news-trend__item{
     margin-left: -.1rem;
-    border: 1px solid black;
-    line-height: 1.4rem;
+    line-height: 1.5rem;
 }
 
 .news-alert__covid19{
@@ -29,8 +29,17 @@
 .news-trend__item h3{
     color: #292929;
 }
+
 .news-trend__item p {
     color: #626262;
+}
+
+
+@media screen and (max-width:1024px) {
+    .news-trend__list{
+        flex-direction: column;
+        margin:0 auto;
+    }
 }
 
 
