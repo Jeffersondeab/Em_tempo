@@ -28,3 +28,7 @@
 @import url('desktop/main/Seção__1/news-containerA.css');
 @import url('desktop/main/Seção__1/news-containerA__box.css');
 @import url('desktop/main/Seção__1/news-trend.css');
+
+/* seção 2 */
+@import url('desktop/main/Seção__2/box__second.css');
+@import url('desktop/main/Seção__2/news-containerB.css');

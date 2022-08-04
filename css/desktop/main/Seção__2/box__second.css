@@ -1,0 +1,10 @@
+.box__second{
+    display: grid;
+    grid-template-areas: ;
+    margin:0 auto;
+    width: 73vw;
+}
+
+.box__second h2{ 
+    color: #FBB160;
+}
