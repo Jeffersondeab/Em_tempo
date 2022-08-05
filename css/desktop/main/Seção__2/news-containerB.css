@@ -1,3 +1,30 @@
 .news-containerB{
-  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin:0 auto;
+    width: 73vw;
 }
+
+.news-containerB__item{
+    border: 1px solid black;
+    width: 10rem;
+    height: 10rem;
+    display: block;
+}
+
+.grid-2-1{
+    grid-column: 1/ span 3;
+}
+
+.grid-2-5{
+    grid-column: 3 / span 4;
+    grid-row: 1 / span 1;
+}
+.grid-2-6{
+    grid-column: span 3;
+    grid-row: span 3;
+}
+
+
+
