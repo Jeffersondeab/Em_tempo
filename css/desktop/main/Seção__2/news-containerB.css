@@ -66,9 +66,10 @@
 }
 
 .news-containerB__item:nth-child(5){
-    display: block;
     border-radius: 2rem;
     background-image: url('/css/imagens/imagensMain/Capturar-8.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 35vw;
     height: 19.6rem;
 }
@@ -84,12 +85,11 @@
 
 
 .news-containerB__item:nth-child(7){
-    display: block;
-    
+    display: flex;
+    flex-direction: column;
 }
 .news-containerB__link:nth-child(7){
-     display: flex;
-     flex-direction: column;
+    
 }
 
 
