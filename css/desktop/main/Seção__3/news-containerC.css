@@ -1,1 +1,35 @@
- 
+.box__third{
+    display: block;
+}
+
+/* .box__third{
+    margin-top: 2rem;
+    display: block;
+    height: auto;
+}
+
+.news-containerC__Up{
+    display: grid;
+    grid-template-areas: "grid-3-1 grid-3-7 grid-3-8"
+                         "grid-3-2 grid-3-7 grid-3-8";
+    width: 73vw;
+    margin:0 auto;
+}
+
+.news-containerC__item img{
+    width: 17.2vw;
+}
+
+.grid-3-1{
+    grid-area: grid-3-1;
+}
+.grid-3-2{
+    grid-area: grid-3-2;
+}
+.grid-3-7{
+    grid-area: grid-3-7;
+}
+.grid-3-8{
+    grid-area: grid-3-8;
+}
+ */
