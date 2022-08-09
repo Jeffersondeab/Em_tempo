@@ -32,3 +32,8 @@
 /* seção 2 */
 @import url('desktop/main/Seção__2/box__second.css');
 @import url('desktop/main/Seção__2/news-containerB.css');
+@import url('desktop/main/Seção__2/carouselA.css');
+
+/* seção 3 */
+
+@import url('/css/desktop/main/Seção__3/news-containerC.css');
