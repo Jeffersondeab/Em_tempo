@@ -1,5 +1,6 @@
 .carouselA{
-    height: 30rem;
+    display: block;
+    height: 80vh;
     width: 100%;
     background-color: #E8E8E8;
     margin:0 auto;

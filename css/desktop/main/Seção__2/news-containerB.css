@@ -14,6 +14,11 @@
     gap: .5rem;
 }
 
+.news-containerB__list h2{
+
+    margin:0 auto;
+}
+
 
 .grid-2-1{
     grid-area: grid-2-1;
