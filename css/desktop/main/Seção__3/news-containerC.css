@@ -1,21 +1,26 @@
  
  .box__third{
     margin-top: 4rem;
+     
 }
 
+.news-containerC__title{
+    width: 73vw;
+    margin:0 auto;
+}
  
 .news-contanerC__content {
     display: flex;
     margin:0 auto;
- 
+    width: 73vw;
 }
 
 .news-containerC__list{
     gap: 1rem;
     display: grid;
     grid-template-areas: "grid-3-1 grid-3-1 grid-3-7 grid-3-8"
-                         "grid-3-2 grid-3-2 grid-3-7 grid-3-8";   
-    
+                         "grid-3-2 grid-3-2 grid-3-7 grid-3-8";  
+    margin-left: -2rem; 
 }
  
  
@@ -23,6 +28,7 @@
  
 .news-containerC__item img{
     width: 17.2vw;
+    border-radius: 1.5rem;
 }
 
 .grid-3-1{
@@ -47,8 +53,8 @@
     text-align: center;
     padding: 2.6rem;
     height: 19.6rem;
-    line-height: 1.7rem;
-    width: 17.2vw;
+    line-height: 1.3rem;
+    width: 12.2vw;
 }
 
 .mega-sena__base{
@@ -58,7 +64,7 @@
     padding: 2.6rem;
     height: 19.6rem;
     line-height: 1.7rem;
-    width: 17.2vw;
+    width: 12.2vw;
 }
 
 
