@@ -35,10 +35,18 @@
 @import url('desktop/main/Seção__2/carouselA.css');
 
 /* seção 3 */
-
 @import url('/css/desktop/main/Seção__3/news-containerC.css');
+@import url('desktop/main/Seção__3/carousel-newsletter.css');
 
 
 /* seção 4 */
-
 @import url('desktop/main/Seção__4/news-containerD.css');
+
+/* seção 5 */
+@import url('desktop/main/Seção__5/container-carouselC.css');
+
+/* seção 6 */
+@import url('desktop/main/Seção__6/carouselD.css');
+
+
+

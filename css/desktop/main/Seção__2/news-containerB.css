@@ -1,3 +1,12 @@
+.box__second{
+    margin:0 auto;
+    width: 73vw;
+}
+
+.box__second h2{ 
+    color: #FBB160;
+}
+
 .news-containerB{
     margin-left: -2rem;
 }
@@ -15,7 +24,6 @@
 }
 
 .news-containerB__list h2{
-
     margin:0 auto;
 }
 

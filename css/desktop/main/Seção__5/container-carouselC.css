@@ -1,0 +1,68 @@
+.box__fifth{
+    background-color: #00B598;
+    height: 20rem;
+    margin-top: 2.5rem;
+}
+
+.carousel-logo__link{
+    margin-left: 10rem;
+}
+.carousel-logo__link span{
+    font-size: 2rem;
+    margin-left: .3rem;
+}
+
+.carousel-logo__link img{
+    width: 3rem;
+    margin-top: 1rem;
+}
+
+
+.container-carouselC{
+    position: relative;
+    margin:0 auto;
+    width: 73vw;
+    display: flex;
+    align-items: center;
+}
+
+
+.container-carouselC__list{
+    display: flex;
+    align-items: center;
+    margin-top:1rem;
+}
+
+
+.container-carouselC__item{
+    width: 13.7rem;
+    height: 11.3rem;
+    background-image: url('/css/imagens/imagensMain/images.jpg');
+    background-size: cover;
+    align-items: center;
+    border-radius: 1.5rem;
+    display: flex;
+
+}
+
+
+.container-carouselC__link .headlineSub-content__title{
+     margin-left: 1rem;
+}
+
+.carouselC-button__left{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    position: absolute;
+    left: 0;   
+}
+.carouselC-button__right{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    position: absolute;
+    right: 0;
+}
