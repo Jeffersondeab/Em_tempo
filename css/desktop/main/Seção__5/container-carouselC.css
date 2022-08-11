@@ -53,6 +53,7 @@
 .carouselC-button__left{
     background: none;
     border: none;
+    color: white;
     cursor: pointer;
     font-size: 2rem;
     position: absolute;
@@ -61,6 +62,7 @@
 .carouselC-button__right{
     background: none;
     border: none;
+    color: white;
     cursor: pointer;
     font-size: 2rem;
     position: absolute;

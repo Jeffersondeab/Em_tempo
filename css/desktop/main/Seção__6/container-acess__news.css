@@ -1,0 +1,35 @@
+.container-acess__news{
+    width: 40vw;
+    height: 22.3rem;
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-between
+
+}
+
+
+.container-acess__news h2{
+    margin-left: 2rem;
+}
+
+.container-acess__btnBase{
+    border-radius: 0rem 0rem 2rem 2rem;
+    background-color: #00B598;
+    height: 5rem;
+}
+
+.container-acess__button{
+    align-items: center;
+    border-radius:3rem;
+    background-color: white;
+    color:#00B598;
+    cursor: pointer;
+    display: flex;
+    width: 8rem;
+    font-size: medium;
+    font-weight: bold;
+    height: 2.5rem;
+    justify-content: center;
+    margin:0 auto;
+    margin-top: 1.5rem;
+}
