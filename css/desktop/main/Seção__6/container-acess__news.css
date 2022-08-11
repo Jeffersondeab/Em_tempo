@@ -3,10 +3,19 @@
     height: 22.3rem;
     display: flex;
     flex-direction: column;    
-    justify-content: space-between
+    justify-content: space-between;
+    border: 1px solid black;
 
 }
 
+
+.container-acess__image{
+    display: flex;
+    margin:0 auto;
+    transform: rotate(-35deg);
+    position: relative;
+    z-index: 0;
+}
 
 .container-acess__news h2{
     margin-left: 2rem;
@@ -16,6 +25,7 @@
     border-radius: 0rem 0rem 2rem 2rem;
     background-color: #00B598;
     height: 5rem;
+    z-index: 2;
 }
 
 .container-acess__button{
@@ -31,5 +41,5 @@
     height: 2.5rem;
     justify-content: center;
     margin:0 auto;
-    margin-top: 1.5rem;
+     
 }
