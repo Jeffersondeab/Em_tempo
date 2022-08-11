@@ -1,0 +1,32 @@
+
+.container-logo__footer{
+    background-color: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem;
+
+}
+
+.container-logo__img{
+    background-color: #00B598;
+    border-radius: 2rem;
+}
+
+.container-footer__base{
+    background-color: #00887E;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    align-items: center;
+}
+
+.container-footer__list{
+    display: flex;
+}
+
+.container-footer__link{
+    color: white;
+    text-decoration: underline;
+}

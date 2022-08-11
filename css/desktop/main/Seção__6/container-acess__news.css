@@ -4,14 +4,13 @@
     display: flex;
     flex-direction: column;    
     justify-content: space-between;
-    border: 1px solid black;
-
 }
 
 
 .container-acess__image{
     display: flex;
     margin:0 auto;
+    height: 15rem;
     transform: rotate(-35deg);
     position: relative;
     z-index: 0;
@@ -24,22 +23,22 @@
 .container-acess__btnBase{
     border-radius: 0rem 0rem 2rem 2rem;
     background-color: #00B598;
-    height: 5rem;
+    padding: 2rem;
     z-index: 2;
 }
 
 .container-acess__button{
     align-items: center;
     border-radius:3rem;
+    border: none;
     background-color: white;
     color:#00B598;
     cursor: pointer;
     display: flex;
-    width: 8rem;
     font-size: medium;
     font-weight: bold;
-    height: 2.5rem;
+    height: 1.5rem;
     justify-content: center;
     margin:0 auto;
-     
+    width: 8rem;
 }
