@@ -3,7 +3,6 @@
 .carouselA{
     display: block;
     height: 80vh;
-    width: 100%;
     background-color: #E8E8E8;
     margin:0 auto;
 }
@@ -27,26 +26,31 @@
 
 .arrow-left__carouselA{
     position: absolute;
+    cursor: pointer;
+    color: #005102;
     left: 0;
     border: none;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: -2rem;
     background: none;
 }
 
 .arrow-right__carouselA{
     background: none;
+    color: #005102;
+    cursor: pointer;
     position: absolute;
     right:0;
     border: none;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: -2rem;
+    margin-right: .3rem;
 }
 
 
 .container-carouselA__list{
     display: flex;
-    margin: 0 auto;
+    margin:0 auto;
     margin-top: 1.9rem;
     gap: 4rem;
 }
@@ -54,6 +58,9 @@
 
 .container-carouselA__item{
     width: 17.2vw;
+}
+.container-carouselA__item:nth-child(1){
+    margin-left: -.1rem;
 }
 
 .container-carouselA__item img{
@@ -64,4 +71,12 @@
 
 .container-carouselA__link img{
     width: 17.2vw;
+}
+
+.container-carouselA__item h3{
+    color: #292929;
+}
+.container-carouselA__item p{
+    color: #626262;
+    margin-top: .5rem;
 }
