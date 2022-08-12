@@ -39,6 +39,7 @@
     height: 11.3rem;
     background-image: url('/css/imagens/imagensMain/images.jpg');
     background-size: cover;
+    background-color: #626262;
     align-items: center;
     border-radius: 1.5rem;
     display: flex;

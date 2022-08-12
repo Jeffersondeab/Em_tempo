@@ -95,6 +95,7 @@
     background-image: url('/css/imagens/imagensMain/Capturar-8.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: #626262;
     width: 35vw;
     height: 20.7rem;
 }
@@ -109,6 +110,7 @@
 .news-containerB__item:nth-child(6){
     border-radius: 2rem;
     background-image: url('/css/imagens/imagensMain/Capturar-8.jpg');
+    background-color: #626262;
     width: 35vw;
     height: 20.7rem;
 }
@@ -116,8 +118,6 @@
     color: white;
 }
  
-
-
 
 .news-containerB__item:nth-child(7){
     display: flex;

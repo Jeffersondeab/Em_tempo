@@ -37,7 +37,7 @@
 @import url('desktop/main/Seção__2/carouselA.css');
 
 /* seção 3 */
-@import url('/css/desktop/main/Seção__3/news-containerC.css');
+@import url('desktop/main/Seção__3/news-containerC.css');
 @import url('desktop/main/Seção__3/carousel-newsletter.css');
 
 
@@ -52,7 +52,10 @@
 @import url('desktop/main/Seção__6/container-acess__news.css');
 
 
-
-/* footer */
+            /* 
+============================================
+                FOOTER
+============================================
+*/
 @import url('desktop/footer/page-footer.css');
 
