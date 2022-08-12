@@ -37,19 +37,20 @@
 }
 
  
+ 
 .news-containerA__link:nth-child(1){ 
-    background-image: url(/css/imagens/imagensMain/dragas-atracam-rio-amazonia-1.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     border-radius: 2rem;
     height: 21rem;
     width: 39vw;
     line-height: 2rem;
+    background-image: url('/css/imagens/logo/amazonia_logo_web-255x60px.webp');
 }
  
 
 .news-containerA__link:nth-child(2){
-    background-image: url(/css/imagens/imagensMain/20170830modelos-de-casas-pequenas-4-1.jpg);
+    background-image: url(/css/imagens/imagensMain/dragas-atracam-rio-amazonia-1.jpg);
     background-size: 130%;
     background-repeat: no-repeat;
     border-radius: 2rem;
