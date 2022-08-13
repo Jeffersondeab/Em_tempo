@@ -4,24 +4,34 @@
     opacity: 1;
     margin-left: 1.5rem;
 }
+.read-time::before{
+    content: '⏱ ';
+}
 
 .read-timeB__ComNome{
     color: #FFFFFF;
     font-size: .70rem;
+}
+.read-timeB__ComNome::before{
+    content: '⏱ ';
 }
 
 .read-timeD__ComNome{
     color: #FFFFFF;
     font-size: .70rem;
 }
-
-.read-time::before{
-    content: '';
+.read-timeD__ComNome::before{
+    content: '⏱ ';
 }
+
 
 .read-timeCinza{
     color: #626262;
     font-size: .70rem;
+}
+
+.read-timeCinza::before{
+    content: '⏱ ';
 }
 
 .read-timeVerde{
@@ -29,9 +39,15 @@
     font-size: .70rem;
     margin:0;
 }
+.read-timeVerde::before{
+    content: '⏱ ';
+}
 
 .read-timeVerdeEscuro{
     font-size: .70rem;
     color:#005102;
+}
+.read-timeVerdeEscuro::before{
+    content: '⏱ ';
 }
 
