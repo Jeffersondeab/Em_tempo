@@ -64,6 +64,9 @@
 .Formulario-containerC__base h2, p{
     margin-bottom: 1rem;  
 }
+.Formulario-containerC__base input{
+    margin-top: 1rem;
+}
 
  
 
@@ -89,18 +92,27 @@
     height: 15rem;
     line-height: 1.7rem;
     width: 12.2vw;
+    margin-left: .5rem;
 }
 
 .mega-sena__sorteio{
     background-color: #00B598;
-    border-radius: 5rem;
+    border-radius: 1rem;
     color: white;
     padding: .5rem;
+    margin: .5rem;
     line-height: 3.5rem;
     font-weight: bold;
-
 }
 
+.news-containerC__item h3{
+    color:#292929;
+}
+.news-containerC__item p{
+    color:#626262;
+    margin-top: .5rem;
+}
+ 
 
 .news-containerC__item:nth-child(3){
     width: 17vw;

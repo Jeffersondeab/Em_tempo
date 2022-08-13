@@ -4,9 +4,7 @@
     margin-top: 2.5rem;
 }
 
-.carousel-logo__link{
-    margin-left: 10rem;
-}
+
 .carousel-logo__link span{
     font-size: 2rem;
     margin-left: .3rem;
@@ -15,6 +13,8 @@
 .carousel-logo__link img{
     width: 3rem;
     margin-top: 1rem;
+    margin:0 auto;
+    display: flex;
 }
 
 
@@ -31,6 +31,7 @@
     display: flex;
     align-items: center;
     margin-top:1rem;
+     
 }
 
 
@@ -43,12 +44,15 @@
     align-items: center;
     border-radius: 1.5rem;
     display: flex;
-
 }
 
+.container-carouselC__item .headlineSub-content__title{
+    color: white;
+}
 
 .container-carouselC__link .headlineSub-content__title{
-     margin-left: 1rem;
+    margin-left: 1rem;
+    margin-top: 4rem;
 }
 
 .carouselC-button__left{
@@ -58,7 +62,7 @@
     cursor: pointer;
     font-size: 2rem;
     position: absolute;
-    left: 0;   
+    left: -1%;   
 }
 .carouselC-button__right{
     background: none;
@@ -67,5 +71,5 @@
     cursor: pointer;
     font-size: 2rem;
     position: absolute;
-    right: 0;
+    right: -1%;
 }

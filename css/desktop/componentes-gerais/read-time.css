@@ -5,13 +5,23 @@
     margin-left: 1.5rem;
 }
 
+.read-timeB__ComNome{
+    color: #FFFFFF;
+    font-size: .70rem;
+}
+
+.read-timeD__ComNome{
+    color: #FFFFFF;
+    font-size: .70rem;
+}
+
 .read-time::before{
     content: '';
 }
 
 .read-timeCinza{
     color: #626262;
-    font-size: .75rem;
+    font-size: .70rem;
 }
 
 .read-timeVerde{
@@ -24,3 +34,4 @@
     font-size: .70rem;
     color:#005102;
 }
+

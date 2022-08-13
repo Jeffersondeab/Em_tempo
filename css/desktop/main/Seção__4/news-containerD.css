@@ -67,6 +67,13 @@
     display: flex;
     line-height: 1.5rem;
 }
+.news-containerD__item h3{
+    color: #292929;
+}
+.news-containerD__item p{
+    color: #626262;
+    margin-top: .5rem;
+}
 
 .news-containerD__item:nth-child(1){
     width: 35.8vw;
@@ -94,6 +101,9 @@
     width: 35vw;
     height: 20.7rem;
 }
+.news-containerD__item:nth-child(5) h3{
+    color: white;
+}
 
 
 .news-containerD__item:nth-child(6){
@@ -102,6 +112,9 @@
     background-color: #626262;
     width: 35vw;
     height: 20.7rem;
+}
+.news-containerD__item:nth-child(6) h3{
+    color: white;
 }
 
 
