@@ -50,9 +50,11 @@
     }
 
     .container-acess__news{
-         height: auto;
-         z-index:none;
-        display: block;
-        border: 1px solid black;
+        margin:0 auto;
+        width: 73vw;
+    }
+
+    .container-acess__news h2{
+        z-index: 2;
     }
 }

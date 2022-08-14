@@ -117,11 +117,13 @@
     }
 
     .container-carouselB{
-        width: 90vw;
+        width: 73vw;
+        height: auto;
         margin-bottom: 1rem;
     }
 
     .containerC-newsletter{
-        width: 90vw;
+        width: 73vw;
+        height: auto;
     }
 }
