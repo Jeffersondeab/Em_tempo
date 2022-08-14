@@ -80,3 +80,52 @@
     color: #626262;
     margin-top: .5rem;
 }
+
+
+@media screen and (max-width:1024px){
+    .carouselA{
+        margin: none;
+        height: auto;
+    }
+
+    .container-carouselA__list{
+        gap: .5rem;
+        margin-left: 2rem;
+    }
+
+    .carouselA-img{
+        width: 8rem;
+        height: 2rem;
+    }
+
+    .container-carouselA__item{
+        width: 27vw;
+    }
+
+    .container-carouselA__item img{
+        border-radius: 2rem;
+        width: 30vw;
+        height: 9.3rem;
+        margin:0 auto;
+    }
+
+    .container-carouselA__item:nth-child(1){
+        display: none;
+    }
+}
+
+@media screen and (max-width:500px){
+
+    .container-carouselA{
+        width: 90vw;
+    }
+
+    .container-carouselA__list{
+        gap: 2.5rem;
+        margin-left: 1rem;
+    }
+
+    .container-carouselA__item img{
+        width: 35vw;
+    }
+}

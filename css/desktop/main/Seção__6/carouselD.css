@@ -69,4 +69,43 @@
     display: flex;
     align-items: center;
 }
+
+@media screen and (max-width:1024px) {
+    .carouselD{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        margin:0 auto;
+        width: 90vw;
+    }
+
+    .container-carouselD{
+        display: flex;
+        margin:0 auto;
+        width: 90vw;
+        margin: 0%;
+        margin-top: 3rem;
+    }
+
+    .container-carouselD__item{
+        width: 35vw;
+        height: 15rem;
+    }
+
+    .container-carouselD__item h3{
+        margin: auto;   
+
+    }
+
+    .container-webstorie{
+        top: -10%;
+    }
+
+    .carouselD-button__left{
+        left: 0%;
+    }
+    .carouselD-button__right{
+        right: 0%;
+    }
+}
     

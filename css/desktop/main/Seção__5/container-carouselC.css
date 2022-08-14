@@ -30,13 +30,12 @@
 .container-carouselC__list{
     display: flex;
     align-items: center;
-    margin-top:1rem;
-     
+    margin-top:1rem;  
 }
 
 
 .container-carouselC__item{
-    width: 13.7rem;
+    width: 15vw;
     height: 11.3rem;
     background-image: url('/css/imagens/imagensMain/images.jpg');
     background-size: cover;
@@ -62,7 +61,7 @@
     cursor: pointer;
     font-size: 2rem;
     position: absolute;
-    left: -1%;   
+    left: -2%;   
 }
 .carouselC-button__right{
     background: none;
@@ -71,5 +70,30 @@
     cursor: pointer;
     font-size: 2rem;
     position: absolute;
-    right: -1%;
+    right: 2%;
+}
+
+@media screen and (max-width:1024px) {
+
+    .container-carouselC{
+        width: 90vw;
+    }
+
+    .container-carouselC__list{
+        width: 85vw;
+        margin:0 auto;
+        display: flex;
+    }
+
+    .container-carouselC__item{
+        margin:0 auto;
+        width: 35vw;
+    }
+
+    .container-carouselC__item:nth-child(3){
+        display: none;
+    }
+    .container-carouselC__item:nth-child(4){
+        display: none;
+    }
 }

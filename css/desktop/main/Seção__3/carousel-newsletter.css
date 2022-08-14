@@ -109,3 +109,19 @@
 }
 
  
+@media screen and (max-width:1024px) {
+
+    .carouselB-newsletter{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-carouselB{
+        width: 90vw;
+        margin-bottom: 1rem;
+    }
+
+    .containerC-newsletter{
+        width: 90vw;
+    }
+}

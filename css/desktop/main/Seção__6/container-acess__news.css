@@ -42,3 +42,17 @@
     margin:0 auto;
     width: 8rem;
 }
+
+@media screen and (max-width:1024px) {
+
+    .container-acess__image{
+        position: none;
+    }
+
+    .container-acess__news{
+         height: auto;
+         z-index:none;
+        display: block;
+        border: 1px solid black;
+    }
+}
