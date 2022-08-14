@@ -205,9 +205,26 @@
         width: 70vw;
     }
 
-
     .news-containerB__link img{
         width: 40vw;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .box__second{
+        
+    }
+
+    .news-containerB__list{
+        width: 90vw;
+    }
+
+    .news-containerB__link{
+        gap: .5rem;
+    }
+
+    .news-containerB__link img{
+        width: 70vw;
     }
 }
 
