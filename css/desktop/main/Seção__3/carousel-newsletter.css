@@ -29,9 +29,8 @@
     position: absolute;
     left: 2%;
     font-size: 2rem;
-    
-    
 }
+
 .arrow-right__carouselB{
     position: absolute;
     right: 2%;
@@ -43,7 +42,6 @@
 .container-carouselB__list{
     display: flex;
     margin:0 auto;
- 
     gap: 1rem;
 }
 
@@ -126,4 +124,30 @@
         width: 73vw;
         height: auto;
     }
+}
+
+@media screen and (max-width:500px){
+
+  
+    .container-carouselB__list{
+        display: flex;
+    }
+
+    .container-carouselB__item{
+        width: 5rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .container-carouselB__link img{
+        width: 25vw;
+        height: 5rem;
+    }
+
+    .containerC-newsletter__int{
+        width: 50vw;
+    }
+
+
 }

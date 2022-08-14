@@ -30,3 +30,14 @@
     color: white;
     text-decoration: underline;
 }
+
+
+@media screen and (max-width:500px) {
+    .container-logo__footer{
+        margin-top: 1rem;
+    }
+
+    .container-footer__list{
+        flex-direction: column;
+    }
+}
