@@ -127,14 +127,14 @@
 }
 
 @media screen and (max-width:500px){
-
+ 
   
     .container-carouselB__list{
         display: flex;
     }
 
     .container-carouselB__item{
-        width: 5rem;
+        width: 6rem;
         align-items: center;
         justify-content: center;
         display: flex;

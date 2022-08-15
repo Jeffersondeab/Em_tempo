@@ -222,13 +222,6 @@
         flex-direction: column;
         gap: .2rem;
     }
-    .news-containerB__link:nth-child(5){
-    
-    }
-
-    .news-containerB__link:nth-child(6){
- 
-    }
 
     .news-containerB__item:nth-child(1) img{
         width: 73vw;
@@ -247,10 +240,21 @@
         height: 12rem;
     }
 
-
     .news-containerB__link img{
         width: 40vw;
         height: 20vh;
+    }
+
+    .news-containerB__item:nth-child(5){
+        width: 73vw;
+        display: flex;
+        align-items: center;
+    }
+
+    .news-containerB__item:nth-child(6){
+        width: 73vw;
+        display: flex;
+        align-items: center;
     }
 }
 
