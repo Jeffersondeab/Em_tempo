@@ -96,4 +96,8 @@
     .container-carouselC__item:nth-child(4){
         display: none;
     }
+
+    .carouselC-button__right{
+        right: 0%;
+    }
 }
