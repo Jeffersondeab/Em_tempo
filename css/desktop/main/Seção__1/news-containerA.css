@@ -37,10 +37,14 @@
 }
 
  
+.photograph img{
+    z-index: 2;
+}
+
  
 .news-containerA__link:nth-child(1){ 
     background-color: #626262;
-    background-image: url(/teset/dragas-atracam-rio-amazonia-1.jpg);
+    background-image: url(/);
     background-repeat: no-repeat;
     background-position: center top;
     border-radius: 2rem;
