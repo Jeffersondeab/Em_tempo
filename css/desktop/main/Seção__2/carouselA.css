@@ -24,6 +24,22 @@
     width: 11rem; 
 }
 
+
+.container-carouselA__list{
+    display: flex;
+    margin:0 auto;
+    overflow-x:auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    margin-top: 1.9rem;
+    gap: 4rem;
+}
+
+.container-carouselA__list::-webkit-scrollbar{
+    display: none;
+}
+
+
 .arrow-left__carouselA{
     position: absolute;
     cursor: pointer;
@@ -48,12 +64,6 @@
 }
 
 
-.container-carouselA__list{
-    display: flex;
-    margin:0 auto;
-    margin-top: 1.9rem;
-    gap: 4rem;
-}
 
 
 .container-carouselA__item{
